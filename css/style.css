@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-color: rgba(165, 42, 42, 0.505);
+    & .header-title h1{
+        padding: .25rem 0 0 .9375rem;
+    }
+}
+
+.ul-nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    height: fit-content;
+    
+    list-style: none;
+    & il{
+        margin: auto;
+        padding-bottom: .625rem;
+        & a{
+            text-decoration: none underline;
+            color: #000;
+            font-weight: bold;
+            cursor: pointer;
+
+        }
+    }
+}
+
+img{
+    width: 10.9375rem;
+    height: 6.8125rem;
+    border: .125rem solid black;
+}
+
